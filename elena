@@ -1,1 +1,48 @@
 https://github.com/margotdenoyelle/codage-de-site-internet-.git
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Galerie d'Art Kaaya</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<div class="container">
+
+  <aside class="side-image">
+    <div class="logo">KAAYA</div>
+    <h1>GALERIE D'ART<br><span>Meubles Design</span></h1>
+  </aside>
+
+  <section class="products-section">
+    <h2>NOS PRODUITS</h2>
+    <div class="products-grid">
+      <figure>
+        <img src="catégorie1.jpg" alt="Fauteuil" />
+        <figcaption>Fauteuil</figcaption>
+      </figure>
+      <figure>
+        <img src="catégorie2.jpg" alt="Table" />
+        <figcaption>Table</figcaption>
+      </figure>
+      <figure>
+        <img src="catégorie3.jpg" alt="Canapé" />
+        <figcaption>Canapé</figcaption>
+      </figure>
+      <figure>
+        <img src="catégorie4.jpg" alt="Sculpture" />
+        <figcaption>Sculpture</figcaption>
+      </figure>
+      <figure>
+        <img src="catégorie5.jpg" alt="Luminaire" />
+        <figcaption>Luminaire</figcaption>
+      </figure>
+      <figure>
+        <img src="catégorie6.jpg" alt="Autre" />
+        <figcaption>Autre</figcaption>
+      </figure>
+    </div>
+  </section>
+
