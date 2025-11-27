@@ -1,1 +1,184 @@
+/* STRUCTURE GLOBALE */
+body {
+    margin: 0;
+    font-family: "Cormorant Garamond", serif;
+    background: #faf9f7;
+    color: #111;
+}
+
+img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.container {
+    width: 90%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+.header {
+    background: white;
+    border-bottom: 1px solid #ddd;
+    padding: 0px;
+}
+.header img{
+    object-fit: cover;
+    display: block;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: "Cinzel", serif;
+    margin: 0;
+    font-size: 32px;
+    letter-spacing: 2px;
+}
+
+.subtitle {
+    margin: 0;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.nav {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #111;
+    font-size: 17px;
+}
+
+.lang {
+    font-size: 15px;
+    opacity: 0.7;
+}
+
+/* HERO */
+.hero {
+    height: 300px;
+    background: image() /cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h2 {
+    font-family: "Cinzel", serif;
+    font-size: 48px;
+    color: white;
+    text-shadow: 0 4px 10px rgba(0,0,0,0.4);
+}
+
+/* TITRES DE SECTION */
+.section-title {
+    font-family: "Cinzel";
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* PRODUITS */
+.produits-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    gap: 40px;
+}
+
+.produit-card {
+    text-align: center;
+}
+
+.produit-titre {
+  font-size: 22px;
+    font-family: "Cinzel";
+    margin-bottom: 15px;
+}
+
+/* ARTISTES */
+.artistes-grid {
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.artiste h3 {
+    font-family: "Cinzel";
+    font-size: 22px;
+    margin: 15px 0 10px;
+}
+
+/* À PROPOS */
+.text-block {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+/* FORMULAIRE */
+.form {
+    display: grid;
+    gap: 25px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.form input,
+.form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: inherit;
+}
+
+.full {
+    grid-column: 1 / -1;
+}
+
+.btn {
+    width: 150px;
+    padding: 12px;
+    border: none;
+    background: #111;
+    color: white;
+    font-size: 18px;
+    font-family: "Cinzel";
+    cursor: pointer;
+    border-radius: 5px;
+    justify-self: center;
+}
+
+/* FOOTER */
+.footer {
+    text-align: center;
+    padding: 25px 0;
+    margin-top: 50px;
+    background: #111;
+    color: white;
+}
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+    .hero {
+        height: 220px;
+    }
+    .hero h2 {
+        font-size: 32px;
+    }
+}
 
