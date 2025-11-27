@@ -129,12 +129,53 @@ img {
     line-height: 1.6;
 }
 
+/* CONTENEUR GLOBAL DE LA SECTION CONTACT */
+.contact-section {
+    display: grid;
+    grid-template-columns: 1 fr 1 fr; /* 2 colonnes égales */
+    gap: 40 px;
+    padding: 60 px 80 px;
+    background: #f5e5d4; /* couleur proche de ta maquette */
+}
+
+/* COLONNE GAUCHE */
+.contact-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 30 px;
+}
+
+.contact-left img {
+    width: 60 px;
+}
+
+.follow-text {
+    font-family: "Cinzel", serif;
+    font-size: 20 px;
+    text-align: center;
+}
+
+/* COLONNE DROITE (FORMULAIRE) */
+.form-container {
+    background: #c5a187;
+    padding: 40 px;
+    border-radius: 5 px;
+}
+
+.form-container h2 {
+    font-family: "Cinzel", serif;
+    font-size: 26 px;
+    color: white;
+    margin-bottom: 20 px;
+}
+
 /* FORMULAIRE */
 .form {
     display: grid;
+    grid-template-columns: 1 fr 1 fr;
     gap: 25 px;
-    width: 70 %;
-    margin: 0 auto;
+    width: 100 %;
 }
 
 .form input,
@@ -147,10 +188,12 @@ img {
     font-family: inherit;
 }
 
+/* Champ pleine largeur */
 .full {
-    grid-column: 1 / -1;
+    grid-column: 1 / -1;  /* CORRECTION */
 }
 
+/* Bouton */
 .btn {
     width: 150 px;
     padding: 12 px;
@@ -161,18 +204,8 @@ img {
     font-family: "Cinzel";
     cursor: pointer;
     border-radius: 5 px;
-    justify-self: center;
+    margin-top: 15 px;
 }
-
-/* FOOTER */
-.footer {
-    text-align: center;
-    padding: 25 px 0;
-    margin-top: 50 px;
-    background: #111;
-    color: white;
-}
-
 /* RESPONSIVE */
 @media (max-width: 600 px) {
     .hero {
