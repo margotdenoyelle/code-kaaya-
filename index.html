@@ -1,47 +1,171 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Galerie d'Art Kaaya</title>
-<link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KAAYA – Galerie d’art</title>
+
+    <!-- Polices -->
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Cormorant+Garamond:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles2.css">
 </head>
+
 <body>
 
-<div class="container">
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container header-inner">
+            <div class="logo-block">
+                <h1 class="logo">KAAYA</h1>
+                <p class="subtitle">GALERIE D’ART</p>
+            </div>
 
-  <aside class="side-image">
-    <div class="logo">KAAYA</div>
-    <h1>GALERIE D'ART<br><span>Meubles Design</span></h1>
-  </aside>
+            <nav class="nav">
+                <a href="#">Accueil</a>
+                <a href="#produits">Produits</a>
+                <a href="#artistes">Artistes</a>
+                <a href="#contact">Contact</a>
+                <span class="lang">FR / EN</span>
+            </nav>
+        </div>
+        <div class="header-image">
+            <img src="Images /accueil.png" alt="page d'accueil">
+        </div>
+    </header>
 
-  <section class="products-section">
-    <h2>NOS PRODUITS</h2>
-    <div class="products-grid">
-      <figure>
-        <img src="catégorie1.jpg" alt="Fauteuil" />
-        <figcaption>Fauteuil</figcaption>
-      </figure>
-      <figure>
-        <img src="catégorie2.jpg" alt="Table" />
-        <figcaption>Table</figcaption>
-      </figure>
-      <figure>
-        <img src="catégorie3.jpg" alt="Canapé" />
-        <figcaption>Canapé</figcaption>
-      </figure>
-      <figure>
-        <img src="catégorie4.jpg" alt="Sculpture" />
-        <figcaption>Sculpture</figcaption>
-      </figure>
-      <figure>
-        <img src="catégorie5.jpg" alt="Luminaire" />
-        <figcaption>Luminaire</figcaption>
-      </figure>
-      <figure>
-        <img src="catégorie6.jpg" alt="Autre" />
-        <figcaption>Autre</figcaption>
-      </figure>
-    </div>
-  </section>
+    <!-- HERO -->
+    <section class="hero">
+        <h2>Meubles Design</h2>
+    </section>
+
+    <!-- PRODUITS -->
+    <section id="produits" class="section produits">
+        <h2 class="section-title">NOS PRODUITS</h2>
+
+        <div class="produits-grid">
+
+            <div class="produit-card">
+                <p class="produit-titre">Fauteuil</p>
+                <img src="Images /fauteuil.png" alt="fauteuil">
+            </div>
+
+            <div class="produit-card">
+                <p class="produit-titre">Table</p>
+                <img src="Images /tete table .png" alt="table">
+            </div>
+
+            <div class="produit-card">
+                <p class="produit-titre">Canapé</p>
+                <img src="Images /salon vert verre table .png" alt="Canapé">
+            </div>
+
+            <div class="produit-card">
+                <p class="produit-titre">Sculpture</p>
+                <img src="Images /sculpture.png" alt="sculpture">
+            </div>
+
+            <div class="produit-card">
+                <p class="produit-titre">Luminaire</p>
+                <img src="Images /lampe.png" alt="lampe">
+            </div>
+
+            <div class="produit-card">
+                <p class="produit-titre">Autre</p>
+                <img src="https://picsum.photos/500/500?random=6">
+            </div>
+        </div>
+    </section>
+
+    <!-- ARTISTES -->
+    <section id="artistes" class="section artistes">
+        <h2 class="section-title">NOS ARTISTES</h2>
+
+        <div class="artistes-grid">
+
+            <div class="artiste">
+                <img src="https://picsum.photos/500/500?random=12">
+                <h3>Liora Vega</h3>
+                <p>Liora explore la transparence du verre et de la résine, où chaque pièce capte la lumière
+comme un souffle figé. Ses créations oscillent entre l’eau et l’air, jouant sur les refelts mouvants du monde invisible.
+</p>
+            </div>
+
+            <div class="artiste">
+                <img src="https://picsum.photos/500/500?random=13">
+                <h3>Ethan Roussel</h3>
+                <p>Forgeron contemporain, Ethan transforme l’acier en matière souple, presque organique. Ses meubles semblent en mouvement, comme s’ils respiraient encore
+la chaleur de la forge.</p>
+            </div>
+
+            <div class="artiste">
+                <img src="https://picsum.photos/500/500?random=14">
+                <h3>Eli Tanaka</h3>
+                <p>Eli marie bois brut et acrylique transparent dans une quête d’ harmonie entre
+ombre et lumière. Ses structures minimalistes invitent à ressentir l’espace plutôt qu’à l’occuper.</p>
+            </div>
+
+            <div class="artiste">
+                <img src="https://picsum.photos/500/500?random=15">
+                <h3>John Korr</h3>
+                <p>John puise dans les formations minérales et les paysages désertiques pour créer des
+oeuvres denses et silencieuses. Le beton, le sable et le pigment deviennent chez lui des surfaces méditatives.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- À PROPOS -->
+    <section class="section apropos">
+        <h2 class="section-title">À PROPOS DE NOTRE GALERIE</h2>
+
+        <div class="text-block">
+            <p>
+                KAAYA est née d’une fascination entre trois amies : celle du dialogue entre la matière et la lumière. Chaque pièce
+présentée dans la galerie est une sculpture habitée , un organisme design qui respire à la lumière, et invite au toucher. Ici,
+l’objet cesse d’être fonction, il devient émotion, espace, présence.
+C’est cette puissance tranquille, cette beauté façonnée par le temps, que la galerie transpose dans le monde contemporain.<br>
+               Nous sélectionnons des créateurs qui explorent la transparence, le métal, la fluidité - des œuvres à la frontière du mobilier
+et de la sculpture.<br>
+                Les courbes s’inspirent des formations naturelles, les artistes utilisent des matériaux qui jouent avec la transparence, les
+reflets et la densité. Le design y devient langage; un langage du silence et de la lumière.<br>
+                KAAYA signifie forme vivante.<br>
+            Ce nom murmure les langues anciennes et les paysages du Sud - Ouest américain, inspirée par les canyon sculptés du vent
+et du temps où la roche se plie à la lumière et se teinte d’ocre et d’or.<br>
+                Née d’une passion pour les matières, la lumière et l’équilibre des formes, KAAYA est un lieu où le geste artisanal rencontre
+la recherche technologique.<br>
+            Chez KAAYA, nous croyons que le design n’est pas seulement à contempler, il est à ressentir ! Nous cherchons la beauté
+dans les imperfections, la fluidité dans le métal, et la chaleur dans la transparence .
+            </p>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact">
+        <h2 class="section-title">FORMULAIRE DE CONTACT</h2>
+
+        <form class="form">
+            <label>Email :
+                <input type="email" required>
+            </label>
+
+            <label>Téléphone :
+                <input type="tel">
+            </label>
+
+            <label>Ville :
+                <input type="text">
+            </label>
+            <button type="submit" class="btn">Envoyer</button>
+        </form>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>© KAAYA – Galerie d'art</p>
+    </footer>
+
+</body>
+</html>
 
