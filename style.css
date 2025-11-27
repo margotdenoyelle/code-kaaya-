@@ -7,22 +7,22 @@ body {
 }
 
 img {
-    width: 100%;
+    width: 100 %;
     display: block;
     object-fit: cover;
 }
 
 .container {
-    width: 90%;
-    max-width: 1400px;
+    width: 90 %;
+    max-width: 1400 px;
     margin: 0 auto;
 }
 
 /* HEADER */
 .header {
     background: white;
-    border-bottom: 1px solid #ddd;
-    padding: 0px;
+    border-bottom: 1 px solid #ddd;
+    padding: 0 px;
 }
 .header img{
     object-fit: cover;
@@ -38,37 +38,37 @@ img {
 .logo {
     font-family: "Cinzel", serif;
     margin: 0;
-    font-size: 32px;
-    letter-spacing: 2px;
+    font-size: 32 px;
+    letter-spacing: 2 px;
 }
 
 .subtitle {
     margin: 0;
-    font-size: 14px;
+    font-size: 14 px;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 1 px;
 }
 
 .nav {
     display: flex;
-    gap: 25px;
+    gap: 25 px;
     align-items: center;
 }
 
 .nav a {
     text-decoration: none;
     color: #111;
-    font-size: 17px;
+    font-size: 17 px;
 }
 
 .lang {
-    font-size: 15px;
+    font-size: 15 px;
     opacity: 0.7;
 }
 
 /* HERO */
 .hero {
-    height: 300px;
+    height: 300 px;
     background: image() /cover no-repeat;
     display: flex;
     justify-content: center;
@@ -77,24 +77,24 @@ img {
 
 .hero h2 {
     font-family: "Cinzel", serif;
-    font-size: 48px;
+    font-size: 48 px;
     color: white;
-    text-shadow: 0 4px 10px rgba(0,0,0,0.4);
+    text-shadow: 0 4 px 10 px rgba (0,0,0,0.4);
 }
 
 /* TITRES DE SECTION */
 .section-title {
     font-family: "Cinzel";
-    font-size: 35px;
+    font-size: 35 px;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 40 px;
 }
 
 /* PRODUITS */
 .produits-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
-    gap: 40px;
+    grid-template-columns: repeat (auto-fit, minmax (250 px,1 fr));
+    gap: 40 px;
 }
 
 .produit-card {
@@ -102,47 +102,47 @@ img {
 }
 
 .produit-titre {
-  font-size: 22px;
+  font-size: 22 px;
     font-family: "Cinzel";
-    margin-bottom: 15px;
+    margin-bottom: 15 px;
 }
 
 /* ARTISTES */
 .artistes-grid {
     display: grid;
-    gap: 40px;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 40 px;
+    grid-template-columns: repeat (auto-fit, minmax (280 px, 1 fr));
 }
 
 .artiste h3 {
     font-family: "Cinzel";
-    font-size: 22px;
-    margin: 15px 0 10px;
+    font-size: 22 px;
+    margin: 15 px 0 10 px;
 }
 
 /* À PROPOS */
 .text-block {
-    width: 80%;
+    width: 80 %;
     margin: 0 auto;
-    font-size: 20px;
+    font-size: 20 px;
     line-height: 1.6;
 }
 
 /* FORMULAIRE */
 .form {
     display: grid;
-    gap: 25px;
-    width: 70%;
+    gap: 25 px;
+    width: 70 %;
     margin: 0 auto;
 }
 
 .form input,
 .form textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #bbb;
-    border-radius: 5px;
-    font-size: 18px;
+    width: 100 %;
+    padding: 10 px;
+    border: 1 px solid #bbb;
+    border-radius: 5 px;
+    font-size: 18 px;
     font-family: inherit;
 }
 
@@ -151,34 +151,34 @@ img {
 }
 
 .btn {
-    width: 150px;
-    padding: 12px;
+    width: 150 px;
+    padding: 12 px;
     border: none;
     background: #111;
     color: white;
-    font-size: 18px;
+    font-size: 18 px;
     font-family: "Cinzel";
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 5 px;
     justify-self: center;
 }
 
 /* FOOTER */
 .footer {
     text-align: center;
-    padding: 25px 0;
-    margin-top: 50px;
+    padding: 25 px 0;
+    margin-top: 50 px;
     background: #111;
     color: white;
 }
 
 /* RESPONSIVE */
-@media (max-width: 600px) {
+@media (max-width: 600 px) {
     .hero {
-        height: 220px;
+        height: 220 px;
     }
     .hero h2 {
-        font-size: 32px;
+        font-size: 32 px;
     }
 }
 
