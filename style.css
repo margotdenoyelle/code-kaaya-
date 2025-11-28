@@ -1,217 +1,208 @@
-/* STRUCTURE GLOBALE */
+/* GLOBAL STYLE */
 body {
     margin: 0;
-    font-family: "Cormorant Garamond", serif;
-    background: #faf9f7;
-    color: #111;
+    font-family: 'Cormorant Garamond', serif;
+    color: #222;
 }
 
-img {
-    width: 100 %;
-    display: block;
-    object-fit: cover;
-}
-
-.container {
-    width: 90 %;
-    max-width: 1400 px;
-    margin: 0 auto;
+h1, h2, h3, .logo {
+    font-family: 'Cinzel', serif;
 }
 
 /* HEADER */
-.header {
-    background: white;
-    border-bottom: 1 px solid #ddd;
-    padding: 0 px;
-}
-.header img{
-    object-fit: cover;
-    display: block;
-}
-
-.header-inner {
+header {
+    position: absolute;
+    top: 0;
+    width: 100 %;
+    padding: 25 px 40 px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    z-index: 10;
 }
 
-.logo {
-    font-family: "Cinzel", serif;
-    margin: 0;
-    font-size: 32 px;
-    letter-spacing: 2 px;
-}
-
-.subtitle {
-    margin: 0;
-    font-size: 14 px;
-    text-transform: uppercase;
-    letter-spacing: 1 px;
-}
-
-.nav {
-    display: flex;
-    gap: 25 px;
-    align-items: center;
-}
-
-.nav a {
-    text-decoration: none;
-    color: #111;
-    font-size: 17 px;
-}
-
-.lang {
-    font-size: 15 px;
-    opacity: 0.7;
-}
-
-/* HERO */
-.hero {
-    height: 300 px;
-    background: image() /cover no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.hero h2 {
-    font-family: "Cinzel", serif;
-    font-size: 48 px;
+header .logo {
     color: white;
-    text-shadow: 0 4 px 10 px rgba (0,0,0,0.4);
+    font-size: 20 px;
 }
 
-/* TITRES DE SECTION */
-.section-title {
-    font-family: "Cinzel";
-    font-size: 35 px;
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 25 px;
+    font-size: 15 px;
+}
+
+/* HERO SECTION */
+.hero {
+    background-image: url("https://images.unsplash.com/photo-1523289333742-be1143f6b766?auto=format&fit=crop&w=1500&q=80");
+    background-size: cover;
+    background-position: center;
+    height: 420 px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.hero-text h1 {
+    font-size: 42 px;
+    text-align: center;
+    margin: 0;
+}
+
+.hero-text p {
+    font-size: 20 px;
+    text-align: center;
+    margin-top: 10 px;
+}
+
+/* PRODUITS*/
+.produits {
+    background: #F2EBE3;
+    padding: 60 px 40 px;
+    text-align: center;
+}
+
+.produits h2 {
+    font-size: 28 px;
+    margin-bottom: 40 px;
+}
+
+.produits-grid {
+    display: grid;
+    grid-template-columns: repeat (3, 1 fr);
+    gap: 25 px;
+}
+
+.produit {
+    position: relative;
+}
+
+.produit img {
+    width: 100 %;
+    height: 230 px;
+    object-fit: cover;
+}
+
+.produit span {
+    position: absolute;
+    bottom: 10 px;
+    left: 50 %;
+    transform: translateX (-50 %);
+    background: white;
+    padding: 6 px 20 px;
+    font-size: 18 px;
+}
+
+/* ARTISTES*/
+.artistes {
+    background: #A67C65;
+    padding: 70 px 50 px;
+    color: white;
+}
+
+.artistes h2 {
     text-align: center;
     margin-bottom: 40 px;
 }
 
-/* PRODUITS */
-.produits-grid {
-    display: grid;
-    grid-template-columns: repeat (auto-fit, minmax (250 px,1 fr));
-    gap: 40 px;
-}
-
-.produit-card {
-    text-align: center;
-}
-
-.produit-titre {
-  font-size: 22 px;
-    font-family: "Cinzel";
-    margin-bottom: 15 px;
-}
-
-/* ARTISTES */
 .artistes-grid {
     display: grid;
+    grid-template-columns: repeat (2, 1 fr);
     gap: 40 px;
-    grid-template-columns: repeat (auto-fit, minmax (280 px, 1 fr));
 }
 
-.artiste h3 {
-    font-family: "Cinzel";
-    font-size: 22 px;
-    margin: 15 px 0 10 px;
-}
-
-/* À PROPOS */
-.text-block {
-    width: 80 %;
-    margin: 0 auto;
-    font-size: 20 px;
-    line-height: 1.6;
-}
-
-/* CONTENEUR GLOBAL DE LA SECTION CONTACT */
-.contact-section {
-    display: grid;
-    grid-template-columns: 1 fr 1 fr; /* 2 colonnes égales */
-    gap: 40 px;
-    padding: 60 px 80 px;
-    background: #f5e5d4; /* couleur proche de ta maquette */
-}
-
-/* COLONNE GAUCHE */
-.contact-left {
+.artist {
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    gap: 30 px;
+    align-items: flex-start;
+    gap: 20 px;
 }
 
-.contact-left img {
-    width: 60 px;
+.artist img {
+    width: 140 px;
+    height: 140 px;
+    object-fit: cover;
 }
 
-.follow-text {
-    font-family: "Cinzel", serif;
-    font-size: 20 px;
+.artist h3 {
+    margin: 0;
+    margin-bottom: 8 px;
+}
+
+.artist p {
+    margin: 0;
+    color: #F2EBE3;
+}
+
+/* A PROPOS*/
+.apropos {
+    padding: 50 px 60  px;
+    background: #EFE7DD;
+}
+
+.apropos h4 {
+    margin-bottom: 20 px;
+    font-size: 18 px;
+}
+
+/* CONTACT*/
+.contact {
+    background: #A67C65;
+    padding: 60 px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.social {
     text-align: center;
-}
-
-/* COLONNE DROITE (FORMULAIRE) */
-.form-container {
-    background: #c5a187;
-    padding: 40 px;
-    border-radius: 5 px;
-}
-
-.form-container h2 {
-    font-family: "Cinzel", serif;
-    font-size: 26 px;
     color: white;
+}
+
+.icon {
+    width: 40 px;
+    margin: 10 px;
+}
+
+form {
+    background: #C8A791;
+    padding: 20 px;
+    width: 300 px;
+}
+
+form h2 {
+    color: white;
+    text-align: center;
     margin-bottom: 20 px;
 }
 
-/* FORMULAIRE */
-.form {
-    display: grid;
-    grid-template-columns: 1 fr 1 fr;
-    gap: 25 px;
+form input {
     width: 100 %;
-}
-
-.form input,
-.form textarea {
-    width: 100 %;
-    padding: 10 px;
-    border: 1 px solid #bbb;
-    border-radius: 5 px;
-    font-size: 18 px;
-    font-family: inherit;
-}
-
-/* Champ pleine largeur */
-.full {
-    grid-column: 1 / -1;  /* CORRECTION */
-}
-
-/* Bouton */
-.btn {
-    width: 150 px;
-    padding: 12 px;
+    margin-bottom: 12 px;
+    padding: 8 px;
     border: none;
-    background: #111;
-    color: white;
-    font-size: 18 px;
-    font-family: "Cinzel";
-    cursor: pointer;
-    border-radius: 5 px;
-    margin-top: 15 px;
-}
-/* RESPONSIVE */
-@media (max-width: 600 px) {
-    .hero {
-        height: 220 px;
-    }
-    .hero h2 {
-        font-size: 32 px;
-    }
+    background: #EFE7DD;
 }
 
+/* RESPONSIVE*/
+@media (max-width: 900 px) {
+
+    .produits-grid {
+        grid-template-columns: repeat (2, 1 fr);
+    }
+
+    .artistes-grid {
+        grid-template-columns: 1 fr;
+    }
+
+    .artist {
+        flex-direction: column;
+        text-align: center;
+    }
+   .contact {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 40 px;
+    }
+}
