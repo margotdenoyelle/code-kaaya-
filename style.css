@@ -1,4 +1,6 @@
-/* GLOBAL STYLE */
+/* ----------------------------------------
+   GLOBAL STYLE
+----------------------------------------- */
 body {
     margin: 0;
     font-family: 'Cormorant Garamond', serif;
@@ -9,12 +11,14 @@ h1, h2, h3, .logo {
     font-family: 'Cinzel', serif;
 }
 
-/* HEADER */
+/* ----------------------------------------
+   HEADER
+----------------------------------------- */
 header {
     position: absolute;
     top: 0;
-    width: 100 %;
-    padding: 25 px 40 px;
+    width: 100%;
+    padding: 25px 40px;
     display: flex;
     justify-content: space-between;
     z-index: 10;
@@ -22,22 +26,24 @@ header {
 
 header .logo {
     color: white;
-    font-size: 20 px;
+    font-size: 20px;
 }
 
 header nav a {
     color: white;
     text-decoration: none;
-    margin-left: 25 px;
-    font-size: 15 px;
+    margin-left: 25px;
+    font-size: 15px;
 }
 
-/* HERO SECTION */
+/* ----------------------------------------
+   HERO SECTION
+----------------------------------------- */
 .hero {
     background-image: url("https://images.unsplash.com/photo-1523289333742-be1143f6b766?auto=format&fit=crop&w=1500&q=80");
     background-size: cover;
     background-position: center;
-    height: 420 px;
+    height: 420px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -45,33 +51,35 @@ header nav a {
 }
 
 .hero-text h1 {
-    font-size: 42 px;
+    font-size: 42px;
     text-align: center;
     margin: 0;
 }
 
 .hero-text p {
-    font-size: 20 px;
+    font-size: 20px;
     text-align: center;
-    margin-top: 10 px;
+    margin-top: 10px;
 }
 
-/* PRODUITS*/
+/* ----------------------------------------
+   PRODUITS
+----------------------------------------- */
 .produits {
     background: #F2EBE3;
-    padding: 60 px 40 px;
+    padding: 60px 40px;
     text-align: center;
 }
 
 .produits h2 {
-    font-size: 28 px;
-    margin-bottom: 40 px;
+    font-size: 28px;
+    margin-bottom: 40px;
 }
 
 .produits-grid {
     display: grid;
-    grid-template-columns: repeat (3, 1 fr);
-    gap: 25 px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
 }
 
 .produit {
@@ -79,54 +87,56 @@ header nav a {
 }
 
 .produit img {
-    width: 100 %;
-    height: 230 px;
+    width: 100%;
+    height: 230px;
     object-fit: cover;
 }
 
 .produit span {
     position: absolute;
-    bottom: 10 px;
-    left: 50 %;
-    transform: translateX (-50 %);
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
     background: white;
-    padding: 6 px 20 px;
-    font-size: 18 px;
+    padding: 6px 20px;
+    font-size: 18px;
 }
 
-/* ARTISTES*/
+/* ----------------------------------------
+   ARTISTES
+----------------------------------------- */
 .artistes {
     background: #A67C65;
-    padding: 70 px 50 px;
+    padding: 70px 50px;
     color: white;
 }
 
 .artistes h2 {
     text-align: center;
-    margin-bottom: 40 px;
+    margin-bottom: 40px;
 }
 
 .artistes-grid {
     display: grid;
-    grid-template-columns: repeat (2, 1 fr);
-    gap: 40 px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
 }
 
 .artist {
     display: flex;
     align-items: flex-start;
-    gap: 20 px;
+    gap: 20px;
 }
 
 .artist img {
-    width: 140 px;
-    height: 140 px;
+    width: 140px;
+    height: 140px;
     object-fit: cover;
 }
 
 .artist h3 {
     margin: 0;
-    margin-bottom: 8 px;
+    margin-bottom: 8px;
 }
 
 .artist p {
@@ -134,21 +144,25 @@ header nav a {
     color: #F2EBE3;
 }
 
-/* A PROPOS*/
+/* ----------------------------------------
+   A PROPOS
+----------------------------------------- */
 .apropos {
-    padding: 50 px 60  px;
+    padding: 50px 60px;
     background: #EFE7DD;
 }
 
 .apropos h4 {
-    margin-bottom: 20 px;
-    font-size: 18 px;
+    margin-bottom: 20px;
+    font-size: 18px;
 }
 
-/* CONTACT*/
+/* ----------------------------------------
+   CONTACT
+----------------------------------------- */
 .contact {
     background: #A67C65;
-    padding: 60 px;
+    padding: 60px;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -160,49 +174,53 @@ header nav a {
 }
 
 .icon {
-    width: 40 px;
-    margin: 10 px;
+    width: 40px;
+    margin: 10px;
 }
 
 form {
     background: #C8A791;
-    padding: 20 px;
-    width: 300 px;
+    padding: 20px;
+    width: 300px;
 }
 
 form h2 {
     color: white;
     text-align: center;
-    margin-bottom: 20 px;
+    margin-bottom: 20px;
 }
 
 form input {
-    width: 100 %;
-    margin-bottom: 12 px;
-    padding: 8 px;
+    width: 100%;
+    margin-bottom: 12px;
+    padding: 8px;
     border: none;
     background: #EFE7DD;
 }
 
-/* RESPONSIVE*/
-@ media (max-width: 900 px) {
+/* ----------------------------------------
+   RESPONSIVE
+----------------------------------------- */
+@media (max-width: 900px) {
 
     .produits-grid {
-        grid-template-columns: repeat (2, 1 fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .artistes-grid {
-        grid-template-columns: 1 fr;
+        grid-template-columns: 1fr;
     }
 
     .artist {
         flex-direction: column;
         text-align: center;
     }
-   .contact {
+
+    .contact {
         flex-direction: column;
         align-items: center;
         text-align: center;
-        gap: 40 px;
+        gap: 40px;
     }
 }
+
