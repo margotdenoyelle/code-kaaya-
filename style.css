@@ -87,7 +87,7 @@ header nav a {
 
 .produits-grid {
     display: grid;
-    grid-template-columns: repeat(3, auto);
+    grid-template-columns: repeat(3, auto-fit);
     justify-content: center; 
     gap: 40px;
 }
@@ -100,7 +100,6 @@ header nav a {
 .produit img {
     width: 100%;
     height: 425px;
-    width : 421px
     object-fit: cover;
     object-position: center;  
     border-radius: 4px;
