@@ -18,7 +18,7 @@ header {
     position: absolute;
     top: 0;
     width: 100%;
-    padding: 25px 40px;
+    padding: 0px;
     display: flex;
     justify-content: space-between;
     z-index: 10;
@@ -43,7 +43,7 @@ header nav a {
     background-image: url('images/accueil.png');
     background-size: cover;
     background-position: center;
-    height: 620px;
+    height: 420px;
     display: flex;
     align-items: center;
     justify-content: center;
