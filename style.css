@@ -10,7 +10,16 @@ body {
 h1, h2, h3, .logo {
     font-family: 'Cinzel', serif;
 }
-
+img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+.container {
+    width: 90%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
 /* ----------------------------------------
    HEADER
 ----------------------------------------- */
