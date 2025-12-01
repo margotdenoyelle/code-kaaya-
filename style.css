@@ -52,7 +52,7 @@ header nav a {
     background-image: url('images/accueil.png');
     background-size: cover;
     background-position: center;
-    height: 500px;
+    height: 600px;
     display: flex;
     align-items: center;
     justify-content: center;
