@@ -97,8 +97,6 @@ header nav a {
     position: relative;
     background: white;
     border-radius: 6px;
-    width: 100%;
-    max-width: 380px;
     padding-bottom: 20px;
 }
 
