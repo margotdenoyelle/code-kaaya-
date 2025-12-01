@@ -76,7 +76,7 @@ header nav a {
 ----------------------------------------- */
 .produits {
     background: #F2EBE3;
-    padding: 80px 10%;
+    padding: 60px 40%;
     text-align: center;
 }
 
@@ -89,7 +89,6 @@ header nav a {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax (250px, 1fr);
     gap: 25px 
-    margin-top : 40px
 }
 .produit {
    width :380px;
@@ -98,6 +97,7 @@ header nav a {
 
 .produit img {
     width: 100%;
+    height: 230px;
     objectif-fit : cover;
     objectif-position: center;
     border-radius: 4px;
