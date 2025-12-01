@@ -145,14 +145,15 @@ header nav a {
 }
 
 .artist img {
-    width: 140px;
-    height: 140px;
+    width: 200px;
+    height: 200px;
     object-fit: cover;
 }
 
 .artist h3 {
     margin: 0;
     margin-bottom: 8px;
+    text-align : justify 
 }
 
 .artist p {
