@@ -92,7 +92,7 @@ header nav a {
 
 .produits-grid {
     display: grid;
-    grid-template-columns: repeat (3, 1 fr);
+    grid-template-columns: repeat(3, 1 fr);
     gap: 40 px 
     justify-items: center;
     width: 100%;
