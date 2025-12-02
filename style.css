@@ -163,6 +163,7 @@ header nav a {
 .artist p {
     margin: 0;
     color: #F2EBE3;
+    text-align : justify
 }
 
 /* ----------------------------------------
