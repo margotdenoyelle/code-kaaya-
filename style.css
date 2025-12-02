@@ -227,5 +227,26 @@ form input {
 /* ----------------------------------------
    RESPONSIVE
 ----------------------------------------- */
+/* RESPONSIVE*/
+@media (max-width: 900px) {
 
+    .produits-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .artistes-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .artist {
+        flex-direction: column;
+        text-align: center;
+    }
+   .contact {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 40px;
+    }
+}
 
