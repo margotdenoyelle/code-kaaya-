@@ -237,6 +237,7 @@ nav a:hover {
     letter-spacing: 2px;
     margin-bottom: 30px;
     color: #000000;
+    border-bottom: 1px solid #A9846A;
 }
 
 .about p {
