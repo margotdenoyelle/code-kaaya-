@@ -228,7 +228,7 @@ form input {
    RESPONSIVE
 ----------------------------------------- */
 /* RESPONSIVE*/
-@media (max-width: 900px) {
+@media (max-width: 600px) {
 
     .produits-grid {
         grid-template-columns: repeat(2, 1fr);
