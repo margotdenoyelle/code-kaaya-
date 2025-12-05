@@ -122,7 +122,7 @@ nav a:hover {
 
 .products h2 {
     text-align: center;
-    font-size: 80px;
+    font-size: 40px;
     font-weight: 400;
     letter-spacing: 3px;
     margin-bottom: 40px;
@@ -177,7 +177,7 @@ nav a:hover {
 
 .artists h2 {
     text-align: center;
-    font-size: 80px;
+    font-size: 40px;
     font-weight: 400;
     letter-spacing: 3px;
     margin-bottom: 40px;
@@ -287,8 +287,8 @@ nav a:hover {
 
 .social-icons a {
     display: block;
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     transition: opacity 0.3s;
     color: #000; 
 }
@@ -398,7 +398,7 @@ form {
     }
 
     .artists h2 {
-        font-size: 32px;
+        font-size: 60px;
         margin-bottom: 50px;
     }
 
@@ -513,7 +513,7 @@ form {
     }
 
     .products h2 {
-        font-size: 36px;
+        font-size: 80px;
         margin-bottom: 60px;
     }
 
@@ -531,7 +531,7 @@ form {
     }
 
     .artists h2 {
-        font-size: 36px;
+        font-size: 80px;
         margin-bottom: 60px;
     }
 
@@ -550,7 +550,7 @@ form {
     }
 
     .artist-info p {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .about {
@@ -563,7 +563,7 @@ form {
     }
 
     .about p {
-        font-size: 15px;
+        font-size: 30px;
         line-height: 2;
     }
 
@@ -577,8 +577,8 @@ form {
     }
 
     .social-icons a {
-        width: 60px;
-        height: 60px;
+        width: 80px;
+        height: 80px;
     }
 
     .social-icons {
@@ -586,7 +586,7 @@ form {
     }
 
     .social-text {
-        font-size: 17px;
+        font-size: 20px;
         letter-spacing: 3px;
     }
 
