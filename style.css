@@ -150,9 +150,7 @@ nav a:hover {
 
 .product-label {
     position: absolute;
-    bottom: 50%;
-    left: 50%;
-    transform: translateX(-50% -50%);
+    transform: translate(-50% -50%);
     background-color: #F8EBDD;
     background-color: rgba(255, 255, 255, 0.85);
     padding: 10px 30px;
