@@ -3,156 +3,145 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KAAYA - Galerie d’art</title>
-
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Cormorant+Garamond:wght@300;400;500&display=swap" rel="stylesheet">
-
-    <!-- CSS -->
-    <link rel="stylesheet" href="style.css">
+    <title>KAAYA - Galerie d'Art Meubles Design</title>
+    <link rel="stylesheet" href="Style3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600;700&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
 <body>
-
-<header>
-    <div class="logo">KAAYA</div>
-    <nav>
-        <a href="#">Accueil</a>
-        <a href="#">Contact</a>
-        <a href="#">FR / EN</a>
-    </nav>
-</header>
-
-<!-- HERO -->
-<section class="hero">
-    <div class="hero-text">
-        <h1>GALERIE D’ART</h1>
-        <p>Meubles Design</p>
-    </div>
-</section>
-
-<!-- PRODUITS -->
-<section class="produits">
-    <h2>NOS PRODUITS</h2>
-
-    <div class="produits-grid">
-
-        <div class="produit">
-            <img src="images/fauteuil.png" alt="Fauteuil">
-            <span>Fauteuil</span>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">KAAYA</div>
+            <nav>
+                <ul>
+                    <li><a href="#accueil">Accueil</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#" class="lang">FR / EN</a></li>
+                </ul>
+            </nav>
         </div>
+    </header>
 
-        <div class="produit">
-            <img src="images/table.png" alt="table basse">
-            <span>Table</span>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>GALERIE D'ART</h1>
+            <p class="subtitle">Meubles Design</p>
         </div>
+    </section>
 
-        <div class="produit">
-            <img src="images/salon.png" alt="salon moderne">
-            <span>Canapé</span>
-        </div>
-
-        <div class="produit">
-            <img src="images/sculpture.png" alt="sculpture">
-            <span>Sculpture</span>
-        </div>
-
-        <div class="produit">
-            <img src="images/lampe.png" alt="Lampe">
-            <span>Luminaire</span>
-        </div>
-
-        <div class="produit">
-            <img src="images/autre.png" alt="Intéieur">
-            <span>Autre</span>
-        </div>
-
-    </div>
-</section>
-
-<!-- ARTISTES -->
-<section class="artistes">
-    <h2>NOS ARTISTES</h2>
-
-    <div class="artistes-grid">
-
-        <div class="artist">
-            <img src="images/LioraVega.png" alt="artiste1">
-            <div>
-                <h3>Liora Vega</h3>
-                <p>Liora explore la transparence du verre et de la résine, où chaque pièce capte la lumière
-comme un souffle figé. Ses créations oscillent entre l’eau et l’air, jouant sur les refelts mouvants du monde invisible.</p>
+    <!-- Nos Produits Section -->
+    <section class="products">
+        <div class="container">
+            <h2>NOS PRODUITS</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <img src="images /fauteuil.png" alt="Fauteuil">
+                    <div class="product-label">Fauteuil</div>
+                </div>
+                <div class="product-card">
+                    <img src="images /table.png" alt="Table">
+                    <div class="product-label">Table</div>
+                </div>
+                <div class="product-card">
+                    <img src="images /salon.png" alt="Canapé">
+                    <div class="product-label">Canapé</div>
+                </div>
+                <div class="product-card">
+                    <img src="images /sculpture.png" alt="Sculpture">
+                    <div class="product-label">Sculpture</div>
+                </div>
+                <div class="product-card">
+                    <img src="images /lampe.png" alt="Luminaire">
+                    <div class="product-label">Luminaire</div>
+                </div>
+                <div class="product-card">
+                    <img src="images /autre.png" alt="Autre">
+                    <div class="product-label">Autre</div>
+                </div>
             </div>
         </div>
+    </section>
 
-        <div class="artist">
-            <img src="images/EthanRoussel.png" alt="artiste2">
-            <div>
-                <h3>Ethan Roussel</h3>
-                <p>Forgeron contemporain, Ethan transforme l’acier en matière souple, presque organique. Ses meubles semblent en mouvement, comme s’ils respiraient encore
-la chaleur de la forge.</p>
+    <!-- Nos Artistes Section -->
+    <section class="artists">
+        <div class="container">
+            <h2>NOS ARTISTES</h2>
+            <div class="artists-grid">
+                <div class="artist-card">
+                    <img src="images /LioraVega.png" alt="Laura Vega">
+                    <div class="artist-info">
+                        <h3>Laura Vega</h3>
+                        <p>Pionnière de la transparence, du flou et des formes organiques, Laura Vega a lancée événements inscrits au sceau du Sud. Ses influences : les fêtes passées au bord de l'océan, offre sincèrement du monde sensible.</p>
+                    </div>
+                </div>
+                <div class="artist-card">
+                    <img src="images /EthanRoussel.png" alt="Ethan Russel">
+                    <div class="artist-info">
+                        <h3>Ethan Russel</h3>
+                        <p>Forgeron contemporain, Ethan transforme le métal brut en pièces poétiques. Ses meubles combinent un mouvement organique et une géométrie comme si la réputation traversait la fabeur de la forge.</p>
+                    </div>
+                </div>
+                <div class="artist-card">
+                    <img src="images /JohnKorr.png" alt="John Korr">
+                    <div class="artist-info">
+                        <h3>John Kerr</h3>
+                        <p>John puise dans les formes nues des traditions ancestrales pour créer des espaces/éleves ce vibrations.
+La Nature inspire et guide. l'esprit. Ses pièces nous invitent à la lenteur, dans onde et du monde.</p>
+                    </div>
+                </div>
+                <div class="artist-card">
+                    <img src="images /EliTanaka.png" alt="Eli Tanaka">
+                    <div class="artist-info">
+                        <h3>Eli Tanaka</h3>
+                        <p>Eli étudie sous leur un archétype transcription dans le vêtement. Ses luminaires sont souches et simples. Ses créations incitent à ressentir fragile présent qu'il bascule.</p>
+                    </div>
+                </div>
             </div>
         </div>
+    </section>
 
-        <div class="artist">
-            <img src="images/JohnKorr.png" alt="artiste3">
-            <div>
-                <h3>John Korr</h3>
-                <p>John puise dans les formations minérales et les paysages désertiques pour créer des
-oeuvres denses et silencieuses. Le beton, le sable et le pigment deviennent chez lui des surfaces méditatives.</p>
+    <!-- A propos Section -->
+    <section class="about">
+        <div class="container">
+            <h2>À propos de notre galerie</h2>
+            <p>KAAYA est née d'une fascination entre trois amies : celle du dialogue entre la matière et la lumière. Chaque pièce présentée dans la galerie est une sculpture habitée, un organisme design qui respire à la lumière, et invite au toucher. Ici, l'objet cesse d'être fonction, il devient émotion, espace, présence.</p>
+            <br>Nous sélectionnons des créateurs qui explorent la transparence, le métal, la fluidité - des œuvres à la frontière du mobilier et de la sculpture.</br>
+            <br>Les courbes s'inspirent des formations naturelles, les artistes utilisent des matériaux qui jouent avec la transparence, les reflets et la densité. Le design y devient langage; un langage du silence et de la lumière.</br>
+            <br>KAAYA signifie forme vivante.</br>
+            <br>Ce nom murmure les langues anciennes et les paysages du Sud-Ouest américain, inspirée par les canyon sculptés du vent et du temps où la roche se plie à la lumière et se teinte d'ocre et d'or.</br>
+            <br>C'est cette puissance tranquille, cette beauté façonnée par le temps, que la galerie transpose dans le monde contemporain. Née d'une passion pour les matières, la lumière et l'équilibre des formes, KAAYA est un lieu où le geste artisanal rencontre la recherche technologique.</br>
+            <br>Chez KAAYA, nous croyons que le design n'est pas seulement à contempler, il est à ressentir ! Nous cherchons la beauté dans les imperfections, la fluidité dans le métal, et la chaleur dans la transparence.</br>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <div class="contact-wrapper">
+            <div class="social-section">
+                <div class="social-icons">
+                    <a href="#" aria-label="Instagram"><img src="instagram-icon.svg" alt="Instagram"></a>
+                    <a href="#" aria-label="Facebook"><img src="facebook-icon.svg" alt="Facebook"></a>
+                </div>
+                <p class="social-text">SUIVEZ NOUS</p>
+            </div>
+            <div class="form-section">
+                <h2>FORMULAIRE DE CONTACT</h2>
+                <form>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Email :" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="phone" name="phone" placeholder="Téléphone :" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="ville" name="ville" placeholder="Ville :" required>
+                    </div>
+                </form>
             </div>
         </div>
-
-        <div class="artist">
-            <img src="images/EliTanaka.png" alt="artiste4">
-            <div>
-                <h3>Eli Tanaka</h3>
-                <p>Eli marie bois brut et acrylique transparent dans une quête d’ harmonie entre
-ombre et lumière. Ses structures minimalistes invitent à ressentir l’espace plutôt qu’à l’occuper.</p>
-            </div>
-        </div>
-
-    </div>
-</section>
-
-<!-- A PROPOS -->
-<section class="apropos">
-    <h4>A propos de notre galerie</h4>
-         <p>
-                KAAYA est née d’une fascination entre trois amies : celle du dialogue entre la matière et la lumière. Chaque pièce
-présentée dans la galerie est une sculpture habitée , un organisme design qui respire à la lumière, et invite au toucher. Ici,
-l’objet cesse d’être fonction, il devient émotion, espace, présence.
-C’est cette puissance tranquille, cette beauté façonnée par le temps, que la galerie transpose dans le monde contemporain.<br>
-               Nous sélectionnons des créateurs qui explorent la transparence, le métal, la fluidité - des œuvres à la frontière du mobilier
-et de la sculpture.<br>
-                Les courbes s’inspirent des formations naturelles, les artistes utilisent des matériaux qui jouent avec la transparence, les
-reflets et la densité. Le design y devient langage; un langage du silence et de la lumière.<br>
-                KAAYA signifie forme vivante.<br>
-            Ce nom murmure les langues anciennes et les paysages du Sud - Ouest américain, inspirée par les canyon sculptés du vent
-et du temps où la roche se plie à la lumière et se teinte d’ocre et d’or.<br>
-                Née d’une passion pour les matières, la lumière et l’équilibre des formes, KAAYA est un lieu où le geste artisanal rencontre
-la recherche technologique.<br>
-            Chez KAAYA, nous croyons que le design n’est pas seulement à contempler, il est à ressentir ! Nous cherchons la beauté
-dans les imperfections, la fluidité dans le métal, et la chaleur dans la transparence .
-            </p>
-</section>
-
-<!-- CONTACT -->
-<section class="contact">
-    <div class="social">
-        <p>SUIVEZ NOUS</p>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" class="icon">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/2021_Facebook_icon.svg" class="icon">
-    </div>
-
-    <form>
-        <h2>FORMULAIRE DE CONTACT</h2>
-        <input type="email" placeholder="Email :">
-        <input type="text" placeholder="Téléphone :">
-        <input type="text" placeholder="Ville :">
-    </form>
-</section>
-
+    </section>
 </body>
 </html>
-
-
