@@ -16,6 +16,7 @@ body {
 }
 .logo {
     font-family: "Cinzel", serif;
+    font-weight : bold;
 }
 
 h1, h2, h3 {
