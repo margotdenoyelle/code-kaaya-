@@ -92,7 +92,7 @@ nav a:hover {
     justify-content: center;
     text-align: center;
     color: white;
-    position: relative;
+    position: absolute;
 }
 
 .hero-content h1 {
