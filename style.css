@@ -246,7 +246,7 @@ nav a:hover {
 }
 
 .about p {
-    font-size: 20px;
+    font-size: 15px;
     line-height: 1.8;
     margin-bottom: 20px;
     color: #000000;
@@ -347,7 +347,7 @@ form {
     border: none;
     background-color: #F8EBDD;
     font-size: 13px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Cormorant Garamond", serif;
     color: #000000;
     border-radius: 2px;
 }
@@ -480,6 +480,7 @@ form {
     .form-group input {
         padding: 14px 18px;
         font-size: 14px;
+        font-family: "Cormorant Garamond", serif;
     }
 }
 
@@ -513,7 +514,7 @@ form {
     }
 
     .products h2 {
-        font-size: 80px;
+        font-size: 70px;
         margin-bottom: 60px;
     }
 
@@ -531,7 +532,7 @@ form {
     }
 
     .artists h2 {
-        font-size: 80px;
+        font-size: 70px;
         margin-bottom: 60px;
     }
 
@@ -550,7 +551,7 @@ form {
     }
 
     .artist-info p {
-        font-size: 16px;
+        font-size: 20px;
     }
 
     .about {
@@ -563,7 +564,7 @@ form {
     }
 
     .about p {
-        font-size: 30px;
+        font-size: 20px;
         line-height: 2;
     }
 
@@ -586,7 +587,7 @@ form {
     }
 
     .social-text {
-        font-size: 20px;
+        font-size: 30px;
         letter-spacing: 3px;
     }
 
@@ -607,6 +608,9 @@ form {
     .form-group input {
         padding: 16px 22px;
         font-size: 15px;
+        font-family: "Cormorant Garamond", serif;
+        
+        
     }
 }
 
