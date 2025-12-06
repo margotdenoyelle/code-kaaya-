@@ -171,8 +171,7 @@ nav a:hover {
 .artists {
     padding: 60px 0;
     background-color: #B8856A;
-    border-top: 3px solid #8B6F47;
-    border-bottom: 3px solid #8B6F47;
+    border-bottom: 1px solid #8B6F47;
 }
 
 .artists h2 {
@@ -243,6 +242,7 @@ nav a:hover {
     letter-spacing: 2px;
     margin-bottom: 15px;
     color: #000000;
+    border-top: 1px solid #A9846A;
     border-bottom: 1px solid #A9846A;
 }
 
