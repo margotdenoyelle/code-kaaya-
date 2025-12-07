@@ -634,3 +634,48 @@ form {
         font-size: 64px;
     }
 }
+/* Menu déroulant Accueil (version SANS JavaScript) */
+.accueil-menu {
+    position: relative;
+}
+
+.accueil-dropdown {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    background: white;
+    padding: 15px 20px;
+    border-radius: 8px;
+    width: 180px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+    display: none;
+    z-index: 999;
+}
+
+.accueil-dropdown::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 20px;
+    border-width: 0 10px 10px 10px;
+    border-style: solid;
+    border-color: transparent transparent white transparent;
+}
+
+.accueil-dropdown a {
+    display: block;
+    padding: 8px 0;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.accueil-dropdown a:hover {
+    opacity: 0.6;
+}
+
+/* 👉 Le menu s'ouvre quand on survole Accueil */
+.accueil-menu:hover .accueil-dropdown {
+    display: block;
+}
+
