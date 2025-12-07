@@ -634,7 +634,7 @@ form {
         font-size: 64px;
     }
 }
-/* Menu déroulant Accueil (version SANS JavaScript) */
+/* Menu déroulant Accueil */
 .accueil-menu {
     position: relative;
 }
@@ -643,7 +643,6 @@ form {
     position: absolute;
     top: 40px;
     left: 0;
-    background: white;
     padding: 15px 20px;
     border-radius: 8px;
     width: 180px;
@@ -673,8 +672,6 @@ form {
 .accueil-dropdown a:hover {
     opacity: 0.6;
 }
-
-/* 👉 Le menu s'ouvre quand on survole Accueil */
 .accueil-menu:hover .accueil-dropdown {
     display: block;
 }
